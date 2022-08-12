@@ -1,0 +1,11 @@
+{% include navbar.html %}
+{% if page.hero %}
+<img src="{{page.hero}}">
+{% endif %}
+{% if page.title%}
+<h1>{{page.title}}</h1>
+{% else %}
+<h1>Untitled Post</h1>
+{% endif %}
+{{ page.date| date: "%b %d, %Y" }}
+{{ content }}
