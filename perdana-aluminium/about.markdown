@@ -4,14 +4,27 @@ title: About Us
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About Us
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+PT PERDANA ALUMINIUM INDONESIA adalah sebuah perusahaan yang bergerak di bidang manufaktur dan trading Aluminium di Indonesia. Konsep bisnis kami adalah sebagai Total Solution Business Partner yang selalu memprioritaskan kepuasan dan kenyamanan pelangan.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# Product
 
-[jekyll-organization]: https://github.com/jekyll
+- [Karoseri]({{site.url}}/about/karoseri)
+- [Aluminium Sheet and Coil]({{site.url}}/about/sheet-dan-coil)
+- [Aluminium Ekstrusi]({{site.url}}/about/aluminium-ekstrusi)
+- [Pintu dan Jendela]({{site.url}}/about/pintu-dan-jendela)
+
+# Our values
+
+## Kustomisasi Produk Anda
+
+Membangun produk aluminium Anda sendiri dengan tim professional kami
+
+## Bahan berkualitas baik
+
+Kami menjamin anda tidak akan kecewa dengan kualitas bahan kami
+
+## Durabilitas Produk
+
+Kami selalu berkomitmen untuk menyediakan Anda dengan produk yang tahan lama

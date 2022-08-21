@@ -56,3 +56,30 @@ ul.footer > li {
   color: white;
   text-decoration: none;
 }
+
+table {
+  width: 100%;
+  // border: 1px solid black;
+}
+
+tr {
+  width:100%;
+  height: 40vh;
+  // border: 1px solid black;
+}
+
+td {
+  width: 50%;
+  text-align: center;
+  // border: 1px solid black;
+}
+
+.home_img {
+  max-width: 70%;
+  max-height: 100vh;
+  margin: auto;
+}
+
+.home_imgbox {
+  height: 20%;
+}
