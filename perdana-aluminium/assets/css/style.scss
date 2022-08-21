@@ -1,0 +1,58 @@
+---
+---
+
+@import "typography";
+
+
+body {
+  color: rgb(29, 29, 29);
+  background: #fff;
+}
+
+ul.nav {
+  padding-left: 0px;
+  background-color: #3D99CE;
+  text-align: center;
+}
+ul.nav > li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+ul.nav > li:hover {
+  background-color: #efd80c;
+}
+ul.nav > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.img {
+  max-width: 30%;
+  max-height: 100vh;
+  margin: auto;
+}
+.imgbox {
+  display: grid;
+  height: 20%;
+}
+
+.attributes {
+  margin-left: 40px;
+}
+.attributes-title {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul.footer {
+  padding-left: 0px;
+  background-color: #3D99CE;
+  text-align: center;
+}
+ul.footer > li {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
