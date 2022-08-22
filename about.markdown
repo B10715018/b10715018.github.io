@@ -10,10 +10,10 @@ PT PERDANA ALUMINIUM INDONESIA adalah sebuah perusahaan yang bergerak di bidang 
 
 # Product
 
-- [Karoseri]({{site.url}}//aboutMe/about/karoseri)
-- [Aluminium Sheet and Coil]({{site.url}}/aboutMe/about/sheet-dan-coil)
-- [Aluminium Ekstrusi]({{site.url}}/aboutMe/about/aluminium-ekstrusi)
-- [Pintu dan Jendela]({{site.url}}/aboutMe/about/pintu-dan-jendela)
+- [Karoseri]({{site.url}}/about/karoseri)
+- [Aluminium Sheet and Coil]({{site.url}}/about/sheet-dan-coil)
+- [Aluminium Ekstrusi]({{site.url}}/about/aluminium-ekstrusi)
+- [Pintu dan Jendela]({{site.url}}/about/pintu-dan-jendela)
 
 # Our values
 
