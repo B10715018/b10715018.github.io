@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About Us
+title: About Us | Perdana Aluminium Indonesia
 permalink: /about/
 ---
 
