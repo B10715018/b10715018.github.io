@@ -100,3 +100,36 @@ td {
 .home_imgbox {
   height: 20%;
 }
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 12x;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3D99CE;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px #999;
+}
+
+.button:hover {background-color: #efd80c}
+
+.button:active {
+  background-color: #3D99CE;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+img {
+  width: 400px,
+}
+
+.table_per_door_img {
+  border-radius: 25px;
+  border-color: #64bdf5;
+  border-style: solid;
+  border-width: thin;
+}
