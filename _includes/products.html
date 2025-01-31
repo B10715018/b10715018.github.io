@@ -19,7 +19,12 @@ bd_02, https://tokopedia.link/VE0CMWZQ9Jb"
   {% assign details = product | split: ", " %}
   <div class="product-card">
     <img class="product-img" src="/assets/images/{{ details[0] }}.jpg" alt="Product {{ forloop.index }}">
-    <a href="{{ details[1] }}" class="buy-button">Beli sekarang</a>
+    <a href="{{ details[1] }}" class="buy-button row centre">
+      <span class="material-icons icon">
+        shopping_cart</span>
+      Beli
+    </a>
+
   </div>
   {% endfor %}
 </div>
