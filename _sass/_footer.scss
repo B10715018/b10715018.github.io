@@ -1,12 +1,19 @@
 ul.footer {
-  padding-left: 0;
-  background-color: $primary-color;
+  padding: 15px 0;
+  background-color: white; /* Dominant white */
   text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); /* Soft separation */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow above */
+  font-size: 14px;
+  color: $primary-color; /* Softer text color */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 ul.footer > li {
-  display: inline-block;
-  padding: 10px 20px;
-  color: white;
-  text-decoration: none;
+  padding: 5px 15px;
+  list-style: none;
 }
