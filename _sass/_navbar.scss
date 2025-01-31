@@ -1,19 +1,27 @@
 ul.nav {
-  padding-left: 0;
-  background-color: $primary-color;
+  padding: 10px 0;
+  background-color: white; /* Dominant white */
   text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Soft separation */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow */
 }
 
 ul.nav > li {
   display: inline-block;
-  padding: 10px 20px;
-}
-
-ul.nav > li:hover {
-  background-color: $hover-color;
+  padding: 8px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 ul.nav > li > a {
-  color: white;
+  color: $primary-color; /* Subtle blue */
   text-decoration: none;
+  font-weight: 400;
+}
+
+ul.nav > li:hover {
+  background-color: rgba(0, 0, 255, 0.05); /* Very light blue tint */
+}
+
+ul.nav > li > a:hover {
+  color: darken($primary-color, 10%);
 }
