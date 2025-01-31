@@ -1,0 +1,41 @@
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: $primary-color;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px $button-shadow;
+}
+
+.button:hover {
+  background-color: $hover-color;
+}
+
+.button:active {
+  background-color: $primary-color;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.home_img {
+  max-width: 70%;
+  max-height: 100vh;
+  margin: auto;
+}
+
+.home_imgbox {
+  height: 20%;
+}
+
+.table_per_door_img {
+  border-radius: 25px;
+  border-color: $border-color;
+  border-style: solid;
+  border-width: thin;
+}
