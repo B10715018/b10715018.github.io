@@ -2,18 +2,28 @@
 layout: site
 ---
 
-<div class="attributes">
-  <div class="attributes-title">
-    Location
+<div class="contact-section">
+  <div class="contact-info">
+    <div class="contact-card">
+      <div class="row center">
+        <span class="material-icons icon">place</span>
+        <h2>Location</h2>
+      </div>
+      <p>{{ page.location }}</p>
+    </div>
+    <div class="contact-card">
+      <div class="row center">
+        <span class="material-icons icon">phone</span>
+        <h2>Phone</h2>
+      </div>
+      <a href="tel:{{ page.phone }}">{{ page.phone }}</a>
+    </div>
+    <div class="contact-card">
+      <div class="row center">
+        <span class="material-icons icon">email</span>
+        <h2>Email</h2>
+      </div>
+      <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+    </div>
   </div>
-  {{page.location}}
-  <div class="attributes-title">
-    Phone
-  </div>
-  {{page.phone}}
-  <div class="attributes-title">
-    Email
-  </div>
-  {{page.email}}
 </div>
-{{content}}
