@@ -1,0 +1,25 @@
+{% assign products =
+"pl_01, https://tokopedia.link/vjSO6euP9Jb;
+pl_02, https://tokopedia.link/7xzQoUcQ9Jb;
+pl_02_pu, https://tokopedia.link/3NUBizkQ9Jb;
+pl_03, https://tokopedia.link/pVgmTSmQ9Jb;
+pl_04, https://tokopedia.link/3hJAomqQ9Jb;
+pl_05, https://tokopedia.link/LSCXGhsQ9Jb;
+pl_06, https://tokopedia.link/NicWMIuQ9Jb;
+pl_07, https://tokopedia.link/edPEjMwQ9Jb;
+pl_04_slide, https://tokopedia.link/YlwfkFAQ9Jb;
+wn_02, https://tokopedia.link/X7ySitVQ9Jb;
+bd_01, https://tokopedia.link/CiUquU3Q9Jb;
+bd_02, https://tokopedia.link/VE0CMWZQ9Jb"
+| split: ";"
+%}
+
+<div class="product-container">
+  {% for product in products %}
+  {% assign details = product | split: ", " %}
+  <div class="product-card">
+    <img class="product-img" src="/assets/images/{{ details[0] }}.jpg" alt="Product {{ forloop.index }}">
+    <a href="{{ details[1] }}" class="buy-button">Beli sekarang</a>
+  </div>
+  {% endfor %}
+</div>
