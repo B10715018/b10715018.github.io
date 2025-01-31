@@ -3,7 +3,7 @@ layout: post
 title: 'Pintu dan Jendela | Perdana Aluminium Indonesia'
 date: 2022-08-21 00:06:49 +0800
 categories: product
-permalink: '/about/pintu-dan-jendela'
+permalink: '/products/pintu-dan-jendela'
 ---
 
 # Pintu dan Jendela

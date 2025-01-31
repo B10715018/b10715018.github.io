@@ -3,7 +3,7 @@ layout: post
 title: 'Aluminium Ekstrusi | Perdana Aluminium Indonesia'
 date: 2022-08-21 00:06:49 +0800
 categories: product
-permalink: '/about/aluminium-ekstrusi'
+permalink: '/products/aluminium-ekstrusi'
 ---
 
 # Aluminium Ekstrusi

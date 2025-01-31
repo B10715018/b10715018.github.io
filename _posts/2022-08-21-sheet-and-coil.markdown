@@ -3,7 +3,7 @@ layout: post
 title: 'Sheet dan Coil | Perdana Aluminium Indonesia'
 date: 2022-08-21 00:06:49 +0800
 categories: product
-permalink: '/about/sheet-dan-coil'
+permalink: '/products/sheet-dan-coil'
 ---
 
 # Sheet dan Coil
