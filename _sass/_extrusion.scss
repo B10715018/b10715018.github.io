@@ -1,0 +1,90 @@
+.extrusion-container {
+  max-width: 900px; /* Prevents content from stretching too wide */
+  padding: 2rem; /* Adds spacing */
+}
+
+.extrusion-box {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.extrusion-title {
+  padding: 1rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba($primary-color, 0.3);
+}
+
+.extrusion-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 2rem;
+  padding-right: 2rem;
+}
+
+.image-box {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/* Images */
+.extrusion-img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effect for Images */
+.extrusion-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .extrusion-container {
+    padding: 1rem;
+  }
+
+  .content {
+    padding: 1.5rem;
+  }
+
+  .extrusion-title {
+    font-size: 1.75rem;
+  }
+  .extrusion-images {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 1rem;
+  }
+  .extrusion-img {
+    max-width: 100%;
+  }
+}
