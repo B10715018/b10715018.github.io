@@ -1,0 +1,43 @@
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro{
+  padding: 3rem 5rem;
+}
+
+.value-title {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;  
+}
+
+.intro-card {
+  border-radius: 16px;
+  padding:1rem;
+  box-shadow: 4px 4px 10px rgba($primary-color, 0.1); // Adds a subtle shadow effect
+}
+
+.value-card {
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.left {
+  align-self: flex-start;
+  padding-left: 10rem;
+}
+
+.right {
+  align-self:  flex-end;
+  padding-right: 10rem;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: rgba($primary-color, 0.1);
+  border: none;
+  padding-top: 0.1rem;
+}
