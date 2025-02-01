@@ -17,3 +17,22 @@ ul.footer > li {
   padding: 5px 15px;
   list-style: none;
 }
+
+.copyright {
+  text-align: center;
+  font-size: 12px; /* Subtle size */
+  color: $primary-color; /* Soft text color */
+  padding: 10px; /* Bottom spacing */
+}
+/* Ensure the footer remains compact on small screens */
+@media screen and (max-width: 768px) {
+  ul.footer {
+    font-size: 11px; /* Even smaller text on mobile */
+    gap: 5px; /* Reduce space further */
+    padding: 8px 0; /* Adjust padding */
+  }
+
+  ul.footer > li {
+    padding: 3px 5px; /* Smaller padding */
+  }
+}
