@@ -3,7 +3,7 @@ ul.nav {
   flex-direction: row;
   gap: 10rem;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 10px 0;
   background-color: white; /* Dominant white */
   text-align: center;
@@ -29,4 +29,19 @@ ul.nav > li:hover {
 
 ul.nav > li > a:hover {
   color: darken($primary-color, 10%);
+}
+
+@media screen and (max-width: 768px) {
+  ul.nav {
+    gap: 5rem;
+    justify-content: flex-start; /* Align items to the left */
+    padding: 10px;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Ensures no wrapping */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+  }
+
+  ul.nav > li {
+    flex-shrink: 0; /* Prevents items from shrinking */
+  }
 }
