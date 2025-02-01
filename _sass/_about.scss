@@ -41,3 +41,39 @@
   border: none;
   padding-top: 0.1rem;
 }
+
+/* Responsive: Stack vertically on smaller screens */
+@media screen and (max-width: 768px) {
+  .value-card {
+    width: 90%;
+    align-self: center; /* Center all cards */
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .value-title {
+    flex-direction: column; /* Stack icon above text */
+  }
+
+  .left, 
+  .right {
+    align-self: center; /* Override left/right alignment */
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    padding: 1.5rem;
+  }
+
+  .intro-card {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .value-card {
+    width: 100%;
+  }
+}
